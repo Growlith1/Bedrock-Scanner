@@ -1,0 +1,22 @@
+
+{
+  "schemaVersion": 1,
+  "id": "bedrockscanner",
+  "version": "1.0.0",
+  "name": "Bedrock Scanner",
+  "description": "Scans and saves bedrock positions at a specific Y level.",
+  "authors": ["ChatGPT"],
+  "contact": {
+    "sources": "https://openai.com"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.bedrockscanner.BedrockScannerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
